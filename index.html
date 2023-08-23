@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Working Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+    <div class="contactus">
+        <div class="title">
+            <h2>Let's Connect</h2>
+        </div>
+        <div class="box">
+            <div class="contact form">
+                <h3 class="h3">Send a Message</h3>
+                <form action="https://formspree.io/f/moqoddqz" method="POST">
+                    <div class="formbox">
+                        <div class="row50">
+                            <div class="inputbox">
+                                <span>First Name</span>
+                                <input type="text" name="First name" placeholder="john" required autocomplete="off">
+                            </div>
+                            <div class="inputbox">
+                                <span>Last Name</span>
+                                <input type="text" name="last name" placeholder="Doe" required autocomplete="off">
+                            </div>
+                        </div>
+
+                        <div class="row50">
+                            <div class="inputbox">
+                                <span>Email</span>
+                                <input type="email" name="email" placeholder="johndoe@gmail.com" required autocomplete="off">
+                            </div>
+                            <div class="inputbox">
+                                <span>Mobile</span>
+                                <input type="tel" name="Mobile" placeholder="+91 987 654 3210" required autocomplete="off">
+                            </div>
+                        </div>
+
+                        <div class="row100">
+                            <div class="inputbox">
+                                <span>Message</span>
+                                <textarea class="txt" name="message" placeholder="Write your message here..." required
+                                    autocomplete="off"></textarea>
+                            </div>
+                        </div>
+
+                        <div class="row100">
+                            <div class="inputbox">
+                                <button type="submit" name="button" class="btn">Send</button>
+                                <!-- <input type="submit" value="Send"> -->
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="contact info">
+                <h3>Contact Info</h3>
+                <div class="infobox">
+                    <div>
+                        <span><i class="fa-solid fa-location-dot"></i></span>
+                        <p class="para">Kalkaji Extension, New Delhi <br>INDIA</p>
+                    </div>
+                    <div>
+                        <span><i class="fa-solid fa-envelope"></i></span>
+                        <a href="mailto:loremipsum@gmial.com">loremipsum@gmail.com</a>
+                    </div>
+                    <div>
+                        <span><i class="fa-solid fa-phone"></i></span>
+                        <a href="tel:+919876578237">+91 987 345 2345</a>
+                    </div>
+                    <ul class="sci">
+                        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-square-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-square-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-square-threads"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="contact map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.9069854127647!2d77.25518242427063!3d28.542515375714032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce15c350fb9d9%3A0xe1f3bfdfff298101!2sKalkaji%20Extension%2C%20Govindpuri%2C%20New%20Delhi%2C%20Delhi%20110019!5e0!3m2!1sen!2sin!4v1692545990697!5m2!1sen!2sin"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+    <div>
+        <p class="foot"> Made with &#9829; by Vishal Thakur &#169; 2023 </p>
+    </div>
+</body>
+
+</html>
